@@ -11,9 +11,20 @@
 button {
   border-radius: 8px;
   border: none;
-  background-color: #2563eb;
+  background-color: #ac1c1c;
   color: white;
   font-size: 18px;
   padding: 16px 24px;
   text-align: center;
 }
+
+button {
+  transition: transform .3s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.2)
+
+background-color: #000066;
+  }
+  </style>
